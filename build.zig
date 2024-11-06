@@ -323,9 +323,9 @@ pub const Options = struct {
     rshapes: bool = true,
     rtext: bool = true,
     rtextures: bool = true,
-    raygui: bool = false,
+    raygui: bool = true,
     platform: PlatformBackend = .glfw,
-    shared: bool = false,
+    shared: bool = true,
     linux_display_backend: LinuxDisplayBackend = .Both,
     opengl_version: OpenglVersion = .auto,
     /// config should be a list of space-separated cflags, eg, "-DSUPPORT_CUSTOM_FRAME_CONTROL"
